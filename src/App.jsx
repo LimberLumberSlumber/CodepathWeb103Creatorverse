@@ -15,8 +15,8 @@ function App() {
     { path: '/', element: <ShowCreators/> },
     { path: '/creators/:id', element: <ViewCreator/> },
     { path: '/edit/:id', element: <EditCreator/> },
-    { path: '/add', element: <AddCreator/> }
-    // { path: '*', element: <ShowCreators/> }
+    { path: '/add', element: <AddCreator/> },
+    { path: '*', element: <ShowCreators/> }
   ]);
   return routes;
 }
