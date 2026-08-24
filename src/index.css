@@ -129,3 +129,18 @@ code {
   border-radius: 4px;
   margin-bottom: 12px;
 }
+
+
+/* ShowCreators page */
+.show-creators-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.creators-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
