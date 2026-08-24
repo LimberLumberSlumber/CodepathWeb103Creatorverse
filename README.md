@@ -2,7 +2,7 @@
 
 Submitted by: **👉🏿 Jonathan Lin**
 
-About this web app: **👉🏿 app description here**
+About this web app: **👉🏿 A React app to manage your favorite content creators. Built as a prework assignment for CodePath WEB103.**
 
 Time spent: **👉🏿 10** hours
 
