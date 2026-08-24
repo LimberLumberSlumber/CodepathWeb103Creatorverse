@@ -144,3 +144,33 @@ code {
   gap: 16px;
 }
 
+
+/* ViewCreator page */
+.view-creator-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.creator-detail-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.creator-actions {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #ddd;
+}
+
+.creator-actions a {
+  text-decoration: none;
+  color: #6d4aff;
+}
+
+.creator-actions a:hover {
+  text-decoration: underline;
+}
