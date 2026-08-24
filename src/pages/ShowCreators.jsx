@@ -31,6 +31,7 @@
 
 
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { supabase } from '../client';
 import CreatorCard from '../components/CreatorCard';
 
@@ -75,8 +76,10 @@ function ShowCreators() {
     <div className="show-creators-page">
         <h1>My Creatorverse</h1>
         
+        <Link to="/add" className="add-creator-button">+ Add New Creator</Link>
+
         {creators.length === 0 ? (
-        <p>No content creators added yet. <a href="/add">Add one now!</a></p>
+        <p>No content creators added yet.</p>
         ) : (
         <div className="creators-list">
             {creators.map((creator) => (
