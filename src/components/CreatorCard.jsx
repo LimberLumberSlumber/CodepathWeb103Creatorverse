@@ -16,6 +16,10 @@ function CreatorCard({ creator }) {
                 Visit Channel
             </a>
             <br/>
+            <Link to={`/edit/${creator.id}`} className="edit-link">
+                Edit
+            </Link>
+            <br/>
             <Link to={`/creators/${creator.id}`}>
                 View Details
             </Link>
